@@ -1,10 +1,3 @@
-Note
-====
-
-A callback WS example extracted from the [Apache CXF repository](/apache/cxf). [Maven-wrapper](/takari/maven-wrapper) has also been thrown in for developer convenience.
-
-Below is the original README from the example.
-
 Callback Demo
 =============
 
@@ -37,9 +30,9 @@ located), the pom.xml file is used to build and run the demo.
 
 Using either UNIX or Windows:
 
-  ./mvnw install   (builds the demo)
-  ./mvnw -Pserver  (from one command line window)
-  ./mvnw -Pclient  (from a second command line window)
+  mvn install   (builds the demo)
+  mvn -Pserver  (from one command line window)
+  mvn -Pclient  (from a second command line window)
 
 
 To remove the code generated from the WSDL file and the .class
